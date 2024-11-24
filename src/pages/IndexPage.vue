@@ -1,5 +1,5 @@
 <template>
-  <q-page class="_container-common">
+  <q-page class="_container-default">
     <q-breadcrumbs separator="→" class="q-mt-sm" active-color="dark">
       <q-breadcrumbs-el label="Home" />
       <q-breadcrumbs-el label="Products" />

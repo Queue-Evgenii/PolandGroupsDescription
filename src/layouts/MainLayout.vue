@@ -1,32 +1,42 @@
 <template>
-  <q-layout view="hhh lpR fff">
-    <q-header elevated>
-      <div class="_container-wide row items-center">
-        <div class="col-auto">
-          <img src="../assets/images/logo.png" />
-        </div>
-        <ul>
-        </ul>
-        <ul>
-        </ul>
-      </div>
-    </q-header>
+  <q-layout view="hhh lpr fff">
+    <header-component :menu="headerMenu" />
 
     <q-page-container>
       <router-view />
     </q-page-container>
 
-    <q-footer>
-      <div class="_container-wide">
-        footer
-      </div>
-    </q-footer>
+    <footer-component />
   </q-layout>
 </template>
-
 <script setup>
+import HeaderComponent from 'src/components/layout/HeaderComponent.vue';
+import FooterComponent from 'src/components/layout/FooterComponent.vue';
+
+const headerMenu = [
+  {
+    name: 'GŁÓWNA',
+    url: 'https://polandgroups.pl/',
+  },
+  {
+    name: 'SUFITY NAPINANE',
+    url: 'https://polandgroups.pl/sufity-napinane',
+  },
+  {
+    name: 'O FIRMIE',
+    url: 'https://polandgroups.pl/o-firmie',
+  },
+  {
+    name: 'GALERIA',
+    url: 'https://polandgroups.pl/galeria',
+  },
+  {
+    name: 'KONTAKT',
+    url: 'https://polandgroups.pl/kontakt',
+  },
+]
 
 defineOptions({
-  name: 'MainLayout'
+  name: 'MainLayout',
 })
 </script>
