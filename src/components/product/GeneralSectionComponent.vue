@@ -3,11 +3,10 @@
     <h1 class="_title-great q-mb-xl">
       {{ data.name }}
     </h1>
-    <div class="row q-gutter-{32} q-mb-lg">
-      <q-img
-        class="col-12 col-md-6"
-        :src="require(`../../data/products/${data.id}/${data.image}`)"
-      />
+    <div class="row q-col-gutter-lg q-mb-lg">
+      <div class="col-12 col-md-6">
+        <q-img :src="require(`../../data/products/${data.id}/${data.image}`)" />
+      </div>
       <div class="col-12 col-md-6">
         <p class="_text-great">
           {{ data.description }}
@@ -20,6 +19,7 @@
         outline
         class="q-px-lg"
         style="padding-top: 12px; padding-bottom: 12px"
+        @click="openFile"
       >
         <i
           class="material-icons _icon-small"
@@ -36,6 +36,11 @@
 </template>
 
 <script setup>
+const openFile = () => {
+  const pdfFile = require(`../../data/products/profil-p003-185/profil.pdf`);
+  window.open(pdfFile.default, "_blank");
+};
+
 defineProps({
   data: {
     type: Object,

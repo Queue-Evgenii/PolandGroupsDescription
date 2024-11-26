@@ -1,12 +1,12 @@
 <template>
   <section class="_section">
     <h2 class="_title q-mb-xl">Техническое описание</h2>
-    <div class="row">
-      <div class="col-12 col-md-6 row">
+    <div class="row q-col-gutter-lg">
+      <div class="col-12 col-md-6 row q-col-gutter-md">
         <div
           v-for="(item, index) in data.technical.value"
           :key="index"
-          class="_list-mb-36 col-md-12 col-sm-6 col-12"
+          class="col-md-12 col-sm-6 col-12"
         >
           <h3 class="_subtitle q-mb-sm">{{ item.name }}</h3>
           <ul>
@@ -22,11 +22,14 @@
           </ul>
         </div>
       </div>
-      <q-img
-        class="col-12 col-md-6"
-        fit="contain"
-        :src="require(`../../data/products/${data.id}/${data.technical.image}`)"
-      />
+      <div class="col-12 col-md-6">
+        <q-img
+          fit="contain"
+          :src="
+            require(`../../data/products/${data.id}/${data.technical.image}`)
+          "
+        />
+      </div>
     </div>
   </section>
 </template>

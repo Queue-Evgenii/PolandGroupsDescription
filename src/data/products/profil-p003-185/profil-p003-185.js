@@ -4,6 +4,7 @@ export const data = {
   description:
     "Профиль Flexy STANDART 01 для многоуровневых натяжных потолков с гарпунной системой крепления полотна. С разделительной вставкой. Без подсветки.",
   image: "main.webp",
+  file: "profil.pdf",
   technical: {
     image: "scheme.webp",
     value: [

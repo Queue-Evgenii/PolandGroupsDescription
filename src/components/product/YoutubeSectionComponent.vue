@@ -1,5 +1,5 @@
 <template>
-  <section class="_section row items-center">
+  <section class="_section row q-col-gutter-lg items-center">
     <div class="col" style="text-align: center">
       <q-img
         class="col"
@@ -11,7 +11,9 @@
       </h2>
       <h3 style="opacity: 0.65">@some-youtube-channel</h3>
     </div>
-    <q-img class="col" src="../../assets/images/youtube-prev.webp" />
+    <div class="col-sm-6 col-0">
+      <q-img src="../../assets/images/youtube-prev.webp" />
+    </div>
   </section>
 </template>
 

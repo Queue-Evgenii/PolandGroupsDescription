@@ -1,10 +1,9 @@
 <template>
   <section class="_section">
     <h2 class="_title q-mb-xl">Дополнительная комплектация</h2>
-    <div class="row q-col-gutter-xl q-pl-lg">
+    <div class="row q-col-gutter-xl">
       <div
-        class="col"
-        style="flex: 0 1 25%"
+        class="col-md-3 col-sm-6 col-12"
         v-for="(item, index) in data.additional"
         :key="index"
       >

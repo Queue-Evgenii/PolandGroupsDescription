@@ -3,8 +3,7 @@
     <h2 class="_title q-mb-xl">Применение</h2>
     <div class="row q-col-gutter-lg q-pl-lg">
       <div
-        class="col"
-        style="flex: 0 1 50%"
+        class="col-md-6 col-12"
         v-for="(item, index) in data.usage"
         :key="index"
       >
