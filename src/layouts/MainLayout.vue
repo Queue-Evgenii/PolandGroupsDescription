@@ -3,7 +3,7 @@
     <header-component :menu="headerMenu" />
 
     <q-page-container>
-      <router-view />
+      <slot></slot>
     </q-page-container>
 
     <footer-component />

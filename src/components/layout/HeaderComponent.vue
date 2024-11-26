@@ -1,23 +1,35 @@
 <template>
-  <q-header elevated class=" q-py-sm">
-    <div class="_container-wide row items-center _col-gap-48">
+  <q-header elevated class="q-py-sm">
+    <div class="_container-wide row items-center justify-between _col-gap-48">
       <logo-component />
-      <ul class="col row items-center justify-center _col-gap-32" style="font-weight: 500">
-        <li v-for="(item, index) in menu" :key="index">
-          <a :href="item.url" target="_blank" rel="noopener noreferrer">{{ item.name }}</a>
-        </li>
-        <li>
-          <a href="tel:+48884074848">Warszawa: +48 884 074 848</a>
-        </li>
-      </ul>
-      <socials-component />
+      <header-menu-component :items="menu" class="gt-sm col" />
+      <div class="col-auto row">
+        <socials-component />
+        <q-btn
+          flat
+          dense
+          round
+          icon="menu"
+          class="lt-md q-ml-sm"
+          @click="isBurgerOpen = !isBurgerOpen"
+        />
+      </div>
+    </div>
+
+    <div :class="'menu-burger' + (isBurgerOpen ? ' _active' : '')">
+      <header-menu-component :items="menu" :is-mobile="true" />
     </div>
   </q-header>
 </template>
 
 <script setup>
-import LogoComponent from 'src/components/layout/LogoComponent.vue';
-import SocialsComponent from './SocialsComponent.vue';
+import LogoComponent from "src/components/layout/LogoComponent.vue";
+import HeaderMenuComponent from "./HeaderMenuComponent.vue";
+import SocialsComponent from "./SocialsComponent.vue";
+
+import { ref } from "vue";
+
+const isBurgerOpen = ref(false);
 
 const props = defineProps({
   menu: {
@@ -26,6 +38,23 @@ const props = defineProps({
   },
 });
 defineOptions({
-  name: 'HeaderComponent',
-})
+  name: "HeaderComponent",
+});
 </script>
+
+<style lang="scss">
+.menu-burger {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  &._active {
+    height: 245px;
+  }
+}
+</style>
