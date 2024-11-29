@@ -6,7 +6,7 @@
     "
     style="font-weight: 500; line-height: 1.2"
   >
-    <li v-for="(item, index) in items" :key="index">
+    <li v-for="(item, index) in items" :key="index" class="header-menu__item">
       <a :href="item.url" target="_blank" rel="noopener noreferrer">{{
         item.name
       }}</a>
@@ -16,6 +16,22 @@
     </li>
   </ul>
 </template>
+
+<style>
+.header-menu__item a:after {
+  content: "";
+  display: block;
+  bottom: 0;
+  width: 0;
+  transition: width 0.5s;
+  margin: 0 auto;
+  height: 1px;
+  background: #000;
+}
+.header-menu__item a:hover::after {
+  width: 100%;
+}
+</style>
 
 <script setup>
 defineProps({

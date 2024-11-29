@@ -10,7 +10,7 @@
         :data="productData"
       />
       <mount-section-component
-        v-if="productData.mount.length > 0"
+        v-if="productData.mount && productData.mount.length > 0"
         :data="productData.mount"
       />
       <usage-section-component v-if="productData.usage" :data="productData" />
@@ -68,7 +68,7 @@ const createDynamicBreadcrumbs = () => {
 };
 const loadProduct = async () => {
   const id = route.params.id;
-  import(`../data/products/${id}/${id}.js`)
+  import(`../data/products/${id}/index.js`)
     .then((product) => {
       productData.value = product.data;
       createDynamicBreadcrumbs();
