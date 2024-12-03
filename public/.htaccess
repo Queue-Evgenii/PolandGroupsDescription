@@ -8,4 +8,4 @@ RewriteCond %{REQUEST_FILENAME} !-d
 
 # Redirect to index.html in the /catalog/dist/ directory
 
-RewriteRule . /catalog/dist/spa/index.html [L]
+RewriteRule . /catalog/dist/index.html [L]
