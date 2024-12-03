@@ -1,11 +1,11 @@
 RewriteEngine On
-RewriteBase /catalog/
+RewriteBase /catalog/PolandGroupsDescription/
 
 # If the request is not for a valid file or directory
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
-# Redirect to index.html in the /catalog/dist/ directory
+# Redirect to index.html in the /catalog/PolandGroupsDescription/dist/ directory
 
-RewriteRule . /catalog/dist/index.html [L]
+RewriteRule . /catalog/PolandGroupsDescription/dist/index.html [L]
