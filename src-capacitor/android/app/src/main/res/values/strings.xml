@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Poland Shop Products</string>
+    <string name="title_activity_main">Poland Shop Products</string>
+    <string name="package_name">pl.polandgroups.products</string>
+    <string name="custom_url_scheme">pl.polandgroups.products</string>
+</resources>
