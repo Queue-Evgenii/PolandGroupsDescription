@@ -13,7 +13,7 @@
         </p>
       </div>
     </div>
-    <div>
+    <div v-if="data.file.length > 0">
       <q-btn
         square
         outline
@@ -37,7 +37,8 @@
 
 <script setup>
 const openFile = () => {
-  const pdfFile = require(`../../data/products/profil-p003-185/profil.pdf`);
+  if (!data.file || data.file.length === 0) return;
+  const pdfFile = require(`../../data/products/${data.id}/${data.file}`);
   window.open(pdfFile.default, "_blank");
 };
 
