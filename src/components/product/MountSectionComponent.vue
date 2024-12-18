@@ -1,6 +1,6 @@
 <template>
   <section class="_section">
-    <h2 class="_title q-mb-xl">Монтаж</h2>
+    <h2 class="_title q-mb-xl">Montaż</h2>
     <div class="row q-col-gutter-lg">
       <div
         class="col-md-6 col-12 row items-start"
