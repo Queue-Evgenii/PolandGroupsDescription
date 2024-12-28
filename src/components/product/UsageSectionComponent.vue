@@ -1,6 +1,6 @@
 <template>
   <section class="_section">
-    <h2 class="_title q-mb-xl">Применение</h2>
+    <h2 class="_title q-mb-xl">Zastosować</h2>
     <div class="row q-col-gutter-lg q-pl-lg">
       <div
         class="col-md-6 col-12"
@@ -13,7 +13,7 @@
           style="max-height: 320px"
           :src="require(`../../data/products/${data.id}/${item.image}`)"
         />
-        <div>{{ item.value }}</div>
+        <div style="line-height: 1.55">{{ item.value }}</div>
       </div>
     </div>
   </section>

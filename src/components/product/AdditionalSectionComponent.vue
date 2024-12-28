@@ -1,6 +1,6 @@
 <template>
   <section class="_section">
-    <h2 class="_title q-mb-xl">Дополнительная комплектация</h2>
+    <h2 class="_title q-mb-xl">Niezbędne elementy</h2>
     <div class="row q-col-gutter-xl">
       <div
         class="col-md-3 col-sm-6 col-12"

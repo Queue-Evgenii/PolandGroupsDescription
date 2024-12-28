@@ -1,7 +1,7 @@
 export const data = {
-  id: "profil-standart-p002",
-  name: "Profil Standard P002",
-  description: `Profil Polandgroup Standard P002 do sufitów napinanych w systemie "harpun"`,
+  id: "profil-separator-p008",
+  name: "Profil Separator P008",
+  description: `Profil Polandgroup Separator P008 do sufitów napinanych w systemie "harpun"`,
   image: "main.jpg",
   file: "",
   technical: {
@@ -13,7 +13,7 @@ export const data = {
           { name: "Color", value: "Srebny" },
           { name: "Długość", value: "200 cm" },
           { name: "Material", value: "aluminum" },
-          { name: "Waga", value: "210g mb" },
+          { name: "Waga", value: "310g mb" },
         ],
       },
       {
@@ -21,6 +21,7 @@ export const data = {
         value: [
           { name: "Profil do montażu sufitów napinanych" },
           { name: "Wzmocniony bok zapewniający sztywność" },
+          { name: "Rowki łączące" },
         ],
       },
     ],
@@ -28,7 +29,7 @@ export const data = {
   mount: [
     {
       name: "Mocowanie profilu",
-      value: "Wkręty lub kołki mocowanie co 20-30 cm",
+      value: "Wkręty lub kołki mocowanie co 20-30 cm mocowany do sufitu",
     },
     {
       name: "Wykrój folii",
@@ -43,7 +44,7 @@ export const data = {
     {
       image: "usage.jpg",
       value:
-        "Profil P002 jest stosowany do wszystkich rodzajów sufitów napinanych.",
+        "Profil P008 jest stosowany do wszystkich rodzajów sufitów napinanych.",
     },
   ],
   // additional: [

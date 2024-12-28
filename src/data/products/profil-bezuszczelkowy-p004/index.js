@@ -1,7 +1,7 @@
 export const data = {
-  id: "profil-standart-p002",
-  name: "Profil Standard P002",
-  description: `Profil Polandgroup Standard P002 do sufitów napinanych w systemie "harpun"`,
+  id: "profil-bezuszczelkowy-p004",
+  name: "Profil Bezuszczelkowy P004",
+  description: `Profil Polandgroup Bezuszczelkowy P004 do sufitów napinanych w systemie "harpun"`,
   image: "main.jpg",
   file: "",
   technical: {
@@ -10,17 +10,17 @@ export const data = {
       {
         name: "Specifications",
         value: [
-          { name: "Color", value: "Srebny" },
+          { name: "Color", value: "Czarny lub Biały" },
           { name: "Długość", value: "200 cm" },
           { name: "Material", value: "aluminum" },
-          { name: "Waga", value: "210g mb" },
+          { name: "Waga", value: "188g mb" },
         ],
       },
       {
         name: "Konstruktyw",
         value: [
           { name: "Profil do montażu sufitów napinanych" },
-          { name: "Wzmocniony bok zapewniający sztywność" },
+          { name: "Wzmocniony bok zapewniający sztywność" },
         ],
       },
     ],
@@ -43,7 +43,7 @@ export const data = {
     {
       image: "usage.jpg",
       value:
-        "Profil P002 jest stosowany do wszystkich rodzajów sufitów napinanych.",
+        "Profil P004 jest stosowany do wszystkich rodzajów sufitów napinanych bez uszczelki.",
     },
   ],
   // additional: [
