@@ -18,11 +18,11 @@
         v-if="productData.finished"
         :data="productData"
       />
-      <youtube-section-component />
       <additional-section-component
         v-if="productData.additional"
         :data="productData"
       />
+      <youtube-section-component />
     </div>
   </q-page>
   <q-page class="_container-default" v-else>
