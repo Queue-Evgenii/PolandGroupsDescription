@@ -1,7 +1,7 @@
 export const data = {
-  id: "profil-profil-trek-p010",
-  name: "Profil Trek P010",
-  description: `Profil Trek P010 do szynoprzewodu jednofazowego na 230V do sufitów napinanych w systemie "harpun"`,
+  id: "profil-separator-p016",
+  name: "Profil Separator P016",
+  description: `Profil Polandgroup Separator P016 do sufitów napinanych w systemie "harpun"`,
   image: "main.jpg",
   file: "",
   technical: {
@@ -13,7 +13,7 @@ export const data = {
           { name: "Color", value: "Srebny" },
           { name: "Długość", value: "200 cm" },
           { name: "Material", value: "aluminum" },
-          { name: "Waga", value: "530g mb" },
+          { name: "Waga", value: "300g mb" },
         ],
       },
       {
@@ -22,8 +22,6 @@ export const data = {
           { name: "Profil do montażu sufitów napinanych" },
           { name: "Wzmocniony bok zapewniający sztywność" },
           { name: "Rowki łączące" },
-          { name: "Rowek na bandaż" },
-          { name: "Rowek na wkładkę rozdzielającą" },
         ],
       },
     ],
@@ -46,12 +44,11 @@ export const data = {
     {
       image: "usage.jpg",
       value:
-        "Profil P010 jest stosowany do wszystkich rodzajów sufitów napinanych.",
+        "Profil P016 jest stosowany do wszystkich rodzajów sufitów napinanych.",
     },
   ],
-  additional: [
-    { image: "additional-1.jpg", name: "Szynoprzewód na 230V. Długość 200cm" },
-    { image: "additional-2.jpg", name: "Schemat" },
-    { image: "additional-3.jpg", name: "Zaślepka" },
-  ],
+  // additional: [
+  //   { image: "corner-1.webp", name: "PVC Standard" },
+  //   { image: "corner-2.webp", name: "UGOLOK Light" },
+  // ],
 };

@@ -52,8 +52,8 @@ export const data = {
     },
   ],
   additional: [
-    { image: "additional-1.jpg", name: "" },
-    { image: "additional-2.jpg", name: "" },
-    { image: "additional-3.jpg", name: "" },
+    { image: "additional-3.jpg", name: "Zaślepka do P011" },
+    { image: "additional-2.jpg", name: "Klosz z poliwęglanu cięty z metra" },
+    { image: "additional-1.jpg", name: "Schemat" },
   ],
 };

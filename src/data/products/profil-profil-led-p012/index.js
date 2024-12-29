@@ -1,7 +1,7 @@
 export const data = {
-  id: "profil-profil-trek-p010",
-  name: "Profil Trek P010",
-  description: `Profil Trek P010 do szynoprzewodu jednofazowego na 230V do sufitów napinanych w systemie "harpun"`,
+  id: "profil-profil-led-p012",
+  name: "Profil LED 50mm P012",
+  description: `Profil Polandgroup Profil LED 50mm P012 do sufitów napinanych w systemie "harpun"`,
   image: "main.jpg",
   file: "",
   technical: {
@@ -13,7 +13,7 @@ export const data = {
           { name: "Color", value: "Srebny" },
           { name: "Długość", value: "200 cm" },
           { name: "Material", value: "aluminum" },
-          { name: "Waga", value: "530g mb" },
+          { name: "Waga", value: "610g mb" },
         ],
       },
       {
@@ -24,6 +24,7 @@ export const data = {
           { name: "Rowki łączące" },
           { name: "Rowek na bandaż" },
           { name: "Rowek na wkładkę rozdzielającą" },
+          { name: "Miejsce na taśmę LED" },
         ],
       },
     ],
@@ -31,7 +32,8 @@ export const data = {
   mount: [
     {
       name: "Mocowanie profilu",
-      value: "Wkręty lub kołki mocowanie co 20-30 cm mocowany do sufitu",
+      value:
+        "Wkręty lub kołki mocowanie co 20-30 cm mocowany do sufitu lub ściany",
     },
     {
       name: "Wykrój folii",
@@ -46,12 +48,12 @@ export const data = {
     {
       image: "usage.jpg",
       value:
-        "Profil P010 jest stosowany do wszystkich rodzajów sufitów napinanych.",
+        "Profil P012 jest stosowany do wszystkich rodzajów sufitów napinanych.",
     },
   ],
   additional: [
-    { image: "additional-1.jpg", name: "Szynoprzewód na 230V. Długość 200cm" },
-    { image: "additional-2.jpg", name: "Schemat" },
-    { image: "additional-3.jpg", name: "Zaślepka" },
+    { image: "additional-3.jpg", name: "Zaślepka do P012" },
+    { image: "additional-2.jpg", name: "Klosz z poliwęglanu cięty z metra" },
+    { image: "additional-1.jpg", name: "Schemat" },
   ],
 };
