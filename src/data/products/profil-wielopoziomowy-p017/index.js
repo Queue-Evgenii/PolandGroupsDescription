@@ -1,7 +1,7 @@
 export const data = {
-  id: "profil-profil-led-p012",
-  name: "Profil LED 50mm P012",
-  description: `Profil Polandgroup Profil LED 50mm P012 do sufitów napinanych w systemie "harpun"`,
+  id: "profil-wielopoziomowy-p017",
+  name: "Profil Wielopoziomowy P017",
+  description: `Profil Polandgroup Profil Wielopoziomowy P017 do sufitów napinanych w systemie "harpun"`,
   image: "main.jpg",
   file: "",
   technical: {
@@ -13,18 +13,18 @@ export const data = {
           { name: "Color", value: "Srebny" },
           { name: "Długość", value: "200 cm" },
           { name: "Material", value: "aluminum" },
-          { name: "Waga", value: "610g mb" },
+          { name: "Waga", value: "810g mb" },
         ],
       },
       {
         name: "Konstruktyw",
         value: [
           { name: "Profil do montażu sufitów napinanych" },
-          { name: "Wzmocniony bok zapewniający sztywność" },
           { name: "Rowki łączące" },
+          { name: "Rowek narożny do montażu harpuna" },
           { name: "Rowek na bandaż" },
           { name: "Rowek na wkładkę rozdzielającą" },
-          { name: "Miejsce na taśmę LED" },
+          { name: "Wzmocniony bok zapewniający sztywność" },
         ],
       },
     ],
@@ -32,8 +32,7 @@ export const data = {
   mount: [
     {
       name: "Mocowanie profilu",
-      value:
-        "Wkręty lub kołki mocowanie co 20-30 cm mocowany do sufitu lub ściany",
+      value: "Wkręty lub kołki mocowanie co 20-30 cm mocowany do sufitu",
     },
     {
       name: "Wykrój folii",
@@ -47,13 +46,20 @@ export const data = {
   usage: [
     {
       image: "usage.jpg",
+      value: "",
+    },
+    {
+      image: "usage-2.jpg",
+      value: "",
+    },
+    {
+      image: "",
       value:
-        "Profil P012 jest stosowany do wszystkich rodzajów sufitów napinanych.",
+        "Profil P017 jest stosowany do wszystkich rodzajów sufitów napinanych.",
     },
   ],
   additional: [
-    { image: "additional-1.jpg", name: "Zaślepka do P012" },
-    { image: "additional-2.jpg", name: "Klosz z poliwęglanu cięty z metra" },
+    { image: "additional-2.jpg", name: "Makownica cięta z metra" },
     { image: "additional-3.jpg", name: "Schemat" },
   ],
 };

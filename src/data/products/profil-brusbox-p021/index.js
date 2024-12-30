@@ -1,7 +1,7 @@
 export const data = {
-  id: "profil-profil-led-p012",
-  name: "Profil LED 50mm P012",
-  description: `Profil Polandgroup Profil LED 50mm P012 do sufitów napinanych w systemie "harpun"`,
+  id: "profil-brusbox-p021",
+  name: "Profil BrusBox P021",
+  description: `Profil Polandgroup Profil BrusBox P021 do sufitów napinanych w systemie "harpun"`,
   image: "main.jpg",
   file: "",
   technical: {
@@ -13,18 +13,16 @@ export const data = {
           { name: "Color", value: "Srebny" },
           { name: "Długość", value: "200 cm" },
           { name: "Material", value: "aluminum" },
-          { name: "Waga", value: "610g mb" },
+          { name: "Waga", value: "580g mb" },
         ],
       },
       {
         name: "Konstruktyw",
         value: [
           { name: "Profil do montażu sufitów napinanych" },
-          { name: "Wzmocniony bok zapewniający sztywność" },
+          { name: "Wzmocniony bok zapewniający sztywność" },
           { name: "Rowki łączące" },
-          { name: "Rowek na bandaż" },
           { name: "Rowek na wkładkę rozdzielającą" },
-          { name: "Miejsce na taśmę LED" },
         ],
       },
     ],
@@ -46,14 +44,17 @@ export const data = {
   ],
   usage: [
     {
-      image: "usage.jpg",
-      value:
-        "Profil P012 jest stosowany do wszystkich rodzajów sufitów napinanych.",
+      image: "usage-1.jpg",
+      value: "",
     },
-  ],
-  additional: [
-    { image: "additional-1.jpg", name: "Zaślepka do P012" },
-    { image: "additional-2.jpg", name: "Klosz z poliwęglanu cięty z metra" },
-    { image: "additional-3.jpg", name: "Schemat" },
+    {
+      image: "usage-2.jpg",
+      value: "",
+    },
+    {
+      image: "",
+      value:
+        "Profil P021 jest stosowany do wszystkich rodzajów sufitów napinanych.",
+    },
   ],
 };

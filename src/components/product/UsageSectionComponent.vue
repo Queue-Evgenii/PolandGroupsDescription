@@ -8,6 +8,7 @@
         :key="index"
       >
         <q-img
+          v-if="item.image.length > 0"
           class="col q-mb-md"
           fit="scale-down"
           style="max-height: 320px"
